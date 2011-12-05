@@ -2,7 +2,8 @@ freqz = Hash.new(0)
 sentences4word = Hash.new{|sentences, word| sentences[word] = []}
 # use these two hashes to keep track of the indexes
 
-sentences = File.open('sample_text.txt'){|f| f.read}.split(/\. |\?|\!/) # split the text into sentences
+sentences = File.open('sample_text.txt'){|f| f.read}.split(/\. |\? |\! /) # split the text into sentences
+
 sentences.each do |s| 
   words = s.split(/\W|\s/) # and split each sentence by words
   words.each do |w|
