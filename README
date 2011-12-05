@@ -1,0 +1,4 @@
+### WordFreq
+
+This script takes a text file and return each word and its frequency and it is in which sentence(s).
+See [this screenshot](http://cl.ly/CJjf) of this script in action.
